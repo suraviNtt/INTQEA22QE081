@@ -1,0 +1,13 @@
+package selenium_basics;
+
+import com.google.common.collect.DiscreteDomain;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class ChromeSetup {
+
+	public static void main(String[] args) {
+		//cofig chrome 
+		WebDriverManager.chromedriver().setup();
+	}
+}
